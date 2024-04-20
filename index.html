@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch a sketch</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="panel">
+            <input class="panel-item" id="color-palette" type="color" value="rgb(0, 0, 0)">
+            <button class="panel-item" id="color">Color Mode</button>
+            <button class="panel-item" id="rainbow">Rainbow Mode</button>
+            <div class="panel-item slider-container">
+                <input id="slider" type="range" min="16" max="60" value="16">
+                <div id="grid-size">Grid size: 16 x 16</div>
+            </div>
+            <button class="panel-item" id="erase">Erase</button>
+            <button  class="panel-item" id="clear">Clear</button>
+        </div>
+
+        <div class="canvas"></div>
+    </body>
+</html>
+
+
