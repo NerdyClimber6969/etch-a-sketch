@@ -56,7 +56,19 @@ body {
     background: #04AA6D; /* Green background */
     cursor: pointer; /* Cursor on hover */
 }
-  
+
+button {
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#color {
+    background-color: #A9A9A9;
+    color: white;
+}
+
 .canvas {
     user-select: none;
     border: solid;
